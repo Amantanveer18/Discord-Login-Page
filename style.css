@@ -1,0 +1,99 @@
+
+
+@font-face {
+    font-family: Medium;
+    src: url(fonts/fonnts.com-gg-sans-Medium.ttf);
+}
+
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+html body{
+    background-image: url(images/new-and-slightly-older-discord-login-screen-as-a-png-v0-zznw60dgve3d1.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+div{
+    background-color: #363A3F;
+    border-radius: 7px;
+    border: #363A3F 20px;
+    padding: 40px 40px;
+    height: 430px;
+    width: 450px;
+}
+
+div h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: Medium;
+}
+div h3{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    font-weight: 300;
+    font-family: Medium;  
+}
+
+div  h4 {
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Medium;
+    font-weight: 400;
+}
+
+input{
+    width: 367px;
+    height: 35px;
+    border-radius: 7px;
+    border: #2A2A2A solid 1px;
+    background-color: #2a2a2a;
+    color: aliceblue;
+    padding-left: 7px;
+}
+
+button{
+    width: 367px;
+    height: 35px;
+    border-radius: 7px;
+    border: #7188dd solid 1px;
+    background-color: #7188dd;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Medium;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #7188dd;
+    opacity: 0.6;
+    font-family: Medium;
+    font-weight: 400;
+    font-size: 13px;
+}
